@@ -1,0 +1,17 @@
+{
+  "name": "purescript-fetch-free",
+  "license": "MIT",
+  "ignore": [
+    "*",
+    "!src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ethul/purescript-fetch-free.git"
+  },
+  "dependencies": {
+    "purescript-free": "^4.3.0",
+    "purescript-aff": "^4.1.0",
+    "purescript-symbols": "^3.0.0"
+  }
+}
