@@ -21,6 +21,8 @@ data FetchF a
   | Text Response (String -> a)
   | JSON Response (JSON -> a)
 
+derive instance functorFetchF :: Functor FetchF
+
 fetch :: URL -> Fetch Response
 fetch url = liftF (Fetch url id)
 
